@@ -1,0 +1,22 @@
+body {
+    background-color: midnightblue;
+}
+
+.container {
+    margin: 20vh auto;
+    width: 25vh;
+    height: 50vh;
+}
+
+.button_w {
+    background-color: white;
+    display: inline-block;
+    border-radius: 2px;
+    border: gray solid 2px;
+    width: 12%;
+    height: 10%;
+    margin-left: -5px;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 40%;
+}
