@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 body {
     background-color: midnightblue;
 }
@@ -19,6 +21,7 @@ body {
     border-radius: 2px;
     text-align: center;
     width: 100%;
+    font-family: 'Dancing Script', cursive;
 }
 
 .wh-key {
