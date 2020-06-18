@@ -3,20 +3,61 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     margin: 20vh auto;
-    width: 25vh;
+    width: 25vw;
     height: 50vh;
 }
 
-.btn_w {
-    background-color: white;
-    display: inline-block;
+.black-keys, .white-keys {
+    display: flex;
+    width: 100%;
+}
+
+.wh-key, .bl-key {
     border-radius: 2px;
-    border: gray solid 2px;
-    width: 12%;
-    height: 10%;
-    margin-left: -5px;
     text-align: center;
-    font-size: 200%;
+    width: 100%;
+}
+
+.wh-key {
+    background-color: white;
+    border: gray solid 2px;
+    padding-top: 70%;
+    padding-bottom: 10%;
+}
+
+.bl-key {
+    background-color: black;
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
     padding-top: 40%;
+    padding-bottom: 10%;
+}
+
+#W, #E, #T, #Y, #U {
+    position: relative;
+    top: -158%
+}
+
+#W {
+    right: -4%;
+}
+
+#E {
+    left: -1.5%;
+}
+
+#T {
+    left: 7%;
+}
+
+#Y {
+    left: 1.5%;
+}
+
+#U {
+    right: 4.5%;
 }

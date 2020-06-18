@@ -1,4 +1,4 @@
-const keys = "ASDFGHJ"
+const keys = "ASDFGHJWETYU"
 const pathAudioBgn = "audio/"
 const pathAudioEnd = ".mp3"
 
